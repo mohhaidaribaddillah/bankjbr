@@ -1,0 +1,866 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>BankJBR — Solusi Perbankan Modern</title>
+
+  <!-- SEO Core -->
+  <meta name="description" content="BankJBR menyediakan layanan simpanan, pinjaman, kartu debit, dan promo merchant untuk kebutuhan finansial Anda." />
+  <meta name="keywords" content="BankJBR, bank digital, perbankan modern, tabungan, simpanan, deposito, kartu debit, promo merchant, layanan perbankan, mobile banking, internet banking, kurs valuta asing, berita bank, edukasi finansial, bank aman, bank cepat, bank Indonesia" />
+  <meta name="author" content="haidar" />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <meta name="theme-color" content="#0b5ed7" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://bankjbr.vercel.app/" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="BankJBR" />
+  <meta property="og:title" content="BankJBR — Solusi Perbankan Modern" />
+  <meta property="og:description" content="BankJBR menyediakan layanan simpanan, pinjaman, kartu debit, dan promo merchant untuk kebutuhan finansial Anda." />
+  <meta property="og:url" content="https://bankjbr.vercel.app/" />
+  <meta property="og:image" content="https://bankjbr.vercel.app/assets/img/og-bankjbr.jpg" />
+  <meta property="og:image:alt" content="BankJBR — Solusi Perbankan Modern" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BankJBR — Solusi Perbankan Modern" />
+  <meta name="twitter:description" content="BankJBR menyediakan layanan simpanan, pinjaman, kartu debit, dan promo merchant untuk kebutuhan finansial Anda." />
+  <meta name="twitter:image" content="https://bankjbr.vercel.app/assets/img/og-bankjbr.jpg" />
+
+  <!-- Favicon (maksimalkan) -->
+  <link rel="icon" href="assets/favicon/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+  <meta name="msapplication-TileColor" content="#0b5ed7" />
+  <meta name="msapplication-config" content="assets/favicon/browserconfig.xml" />
+
+  <!-- Preload CSS (lebih cepat first paint) -->
+  <link rel="preload" href="assets/css/main.css" as="style" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <!-- Bootstrap Icons (bi bi-whatsapp) -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" as="style" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <!-- Optional: Google Fonts (hapus blok ini jika ingin load lebih cepat / offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- JSON-LD Structured Data (AI Overview / Rich Results) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BankJBR",
+    "url": "https://bankjbr.vercel.app/",
+    "inLanguage": ["id", "en"],
+    "description": "BankJBR menyediakan layanan simpanan, pinjaman, kartu debit, dan promo merchant untuk kebutuhan finansial Anda.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "BankJBR",
+      "url": "https://bankjbr.vercel.app/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://bankjbr.vercel.app/assets/img/logo-bankjbr.png"
+      }
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://bankjbr.vercel.app/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BankJBR",
+    "url": "https://bankjbr.vercel.app/",
+    "logo": "https://bankjbr.vercel.app/assets/img/logo-bankjbr.png",
+    "sameAs": [],
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "telephone": "+62-895-3699-69300",
+      "contactType": "customer service",
+      "areaServed": "ID",
+      "availableLanguage": ["id", "en"]
+    }]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- Navbar (sesuai yang kamu minta, jangan diubah struktur) -->
+  <header class="header" id="beranda">
+    <div class="container header__inner">
+      <a class="brand" href="index.html#beranda" aria-label="BankJBR">
+        <div class="brand__logo" aria-hidden="true">JBR</div>
+        <div class="brand__text">
+          <div class="brand__name">BankJBR</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Navigasi utama">
+        <button class="nav__toggle" type="button" aria-label="Buka menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav__list">
+          <li><a class="nav__link is-active" href="index.html" data-i18n="nav_home">Beranda</a></li>
+          <li><a class="nav__link" href="about.html" data-i18n="nav_about">Tentang</a></li>
+          <li><a class="nav__link" href="promo.html" data-i18n="nav_merchant">Promo Merchant</a></li>
+          <li><a class="nav__link" href="simpanan.html" data-i18n="nav_savings">Simpanan</a></li>
+          <li><a class="nav__link" href="layanan.html" data-i18n="nav_services">Layanan</a></li>
+          <li><a class="nav__link" href="blog.html" data-i18n="nav_blog">Blog (Berita)</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <!-- Translate -->
+        <div class="lang">
+          <button class="btn btn--ghost lang__btn" type="button" aria-haspopup="true" aria-expanded="false">
+            <span class="lang__icon" aria-hidden="true">🌐</span>
+            <span class="lang__label" data-i18n="lang_label">ID</span>
+            <span class="lang__chev" aria-hidden="true">▾</span>
+          </button>
+
+          <div class="lang__menu" role="menu" aria-label="Pilih bahasa">
+            <button class="lang__item" type="button" role="menuitem" data-lang="id">Indonesia</button>
+            <button class="lang__item" type="button" role="menuitem" data-lang="en">English</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="badge" data-i18n="hero_badge">Promo Spesial BankJBR</div>
+          <h1 class="hero__title" data-i18n="hero_title">Perbankan modern yang cepat, aman, dan nyaman.</h1>
+          <p class="hero__subtitle" data-i18n="hero_subtitle">
+            Nikmati simpanan, kartu debit, layanan digital, dan promo merchant untuk kebutuhan harian Anda.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--outline" href="#promo-produk" data-i18n="hero_cta_promo">Lihat Promo</a>
+          </div>
+
+          <div class="hero__quick">
+            <div class="quickcard">
+              <div class="quickcard__kpi">10%</div>
+              <div class="quickcard__text" data-i18n="quick_1">Diskon F&B pilihan</div>
+            </div>
+            <div class="quickcard">
+              <div class="quickcard__kpi">24/7</div>
+              <div class="quickcard__text" data-i18n="quick_2">Layanan digital</div>
+            </div>
+            <div class="quickcard">
+              <div class="quickcard__kpi">A+</div>
+              <div class="quickcard__text" data-i18n="quick_3">Keamanan berlapis</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-label="Banner promo">
+          <!-- HERO: jangan lazy untuk LCP lebih cepat -->
+          <img
+            class="hero__img"
+            src="assets/img/hero-promo.jpg"
+            alt="Banner promo BankJBR"
+            width="1400"
+            height="900"
+            decoding="async"
+            fetchpriority="high"
+          />
+          <div class="hero__card">
+            <div class="hero__cardTitle" data-i18n="hero_card_title">Kartu Debit BankJBR</div>
+            <div class="hero__cardText" data-i18n="hero_card_text">Transaksi harian lebih hemat dengan promo merchant pilihan.</div>
+            <a class="hero__cardLink" href="#promo-merchant" data-i18n="hero_card_link">Lihat detail →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tentang -->
+    <section class="section" id="tentang">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title" data-i18n="about_title">Tentang BankJBR</h2>
+          <p class="section__desc" data-i18n="about_desc">
+            BankJBR berfokus pada layanan ritel dan digital untuk membantu Anda mengelola keuangan dengan lebih mudah.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="card">
+            <div class="card__icon">🔒</div>
+            <h3 class="card__title" data-i18n="about_c1_title">Aman</h3>
+            <p class="card__text" data-i18n="about_c1_text">Proteksi berlapis, kontrol transaksi, dan notifikasi real-time.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">⚡</div>
+            <h3 class="card__title" data-i18n="about_c2_title">Cepat</h3>
+            <p class="card__text" data-i18n="about_c2_text">Akses layanan kapan saja lewat web dan mobile.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">🤝</div>
+            <h3 class="card__title" data-i18n="about_c3_title">Mudah</h3>
+            <p class="card__text" data-i18n="about_c3_text">Produk simpel, informasi jelas, dan dukungan yang responsif.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promo Produk -->
+    <section class="section section--soft" id="promo-produk">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <h2 class="section__title" data-i18n="promo_title">Promo Produk BankJBR untuk Nasabah Setia!</h2>
+          <p class="section__desc" data-i18n="promo_desc">
+            Program promo produk seperti tabungan, deposito, kartu, hingga promo digital untuk membantu transaksi lebih hemat.
+          </p>
+        </div>
+
+        <div class="grid grid--4">
+          <article class="promo">
+            <img class="promo__img" src="assets/img/promo-1.jpg" alt="Promo 1" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="promo__body">
+              <h3 class="promo__title" data-i18n="promo_1_title">Tabungan Berhadiah</h3>
+              <p class="promo__meta" data-i18n="promo_1_meta">Periode: 2026</p>
+              <a class="link" href="#" data-i18n="see_more">Selengkapnya →</a>
+            </div>
+          </article>
+
+          <article class="promo">
+            <img class="promo__img" src="assets/img/promo-2.jpg" alt="Promo 2" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="promo__body">
+              <h3 class="promo__title" data-i18n="promo_2_title">Cashback Transaksi Digital</h3>
+              <p class="promo__meta" data-i18n="promo_2_meta">QRIS & Transfer</p>
+              <a class="link" href="#" data-i18n="see_more">Selengkapnya →</a>
+            </div>
+          </article>
+
+          <article class="promo">
+            <img class="promo__img" src="assets/img/promo-3.jpg" alt="Promo 3" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="promo__body">
+              <h3 class="promo__title" data-i18n="promo_3_title">Deposito Spesial</h3>
+              <p class="promo__meta" data-i18n="promo_3_meta">Bunga kompetitif</p>
+              <a class="link" href="#" data-i18n="see_more">Selengkapnya →</a>
+            </div>
+          </article>
+
+          <article class="promo">
+            <img class="promo__img" src="assets/img/promo-4.jpg" alt="Promo 4" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="promo__body">
+              <h3 class="promo__title" data-i18n="promo_4_title">Program Merchant</h3>
+              <p class="promo__meta" data-i18n="promo_4_meta">Diskon F&B & Lifestyle</p>
+              <a class="link" href="#promo-merchant" data-i18n="see_more">Selengkapnya →</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="section__foot">
+          <a class="btn btn--primary" href="#" data-i18n="promo_all">Lihat Semua Promo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Layanan -->
+    <section class="section section--soft" id="layanan">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title" data-i18n="services_title">Layanan</h2>
+          <p class="section__desc" data-i18n="services_desc">Akses layanan perbankan yang memudahkan transaksi dan kebutuhan finansial Anda.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="service">
+            <div class="service__icon">📱</div>
+            <h3 class="service__title" data-i18n="svc_1_title">Mobile Banking</h3>
+            <p class="service__text" data-i18n="svc_1_text">Cek saldo, transfer, bayar tagihan, dan QRIS dalam satu aplikasi.</p>
+          </div>
+
+          <div class="service">
+            <div class="service__icon">💳</div>
+            <h3 class="service__title" data-i18n="svc_2_title">Kartu Debit</h3>
+            <p class="service__text" data-i18n="svc_2_text">Transaksi di merchant, tarik tunai, dan promo menarik.</p>
+          </div>
+
+          <div class="service">
+            <div class="service__icon">🏦</div>
+            <h3 class="service__title" data-i18n="svc_3_title">Cabang & ATM</h3>
+            <p class="service__text" data-i18n="svc_3_text">Akses layanan tatap muka dan jaringan ATM yang nyaman.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog / Berita (Tabs Aktif) -->
+    <section class="section" id="blog">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <h2 class="section__title" data-i18n="blog_title">Berita & Artikel</h2>
+          <p class="section__desc" data-i18n="blog_desc">Informasi terbaru seputar BankJBR, edukasi finansial, dan pengumuman.</p>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Kategori berita">
+          <button class="tab is-active" type="button" data-filter="all" data-i18n="tab_all">Semua</button>
+          <button class="tab" type="button" data-filter="corp" data-i18n="tab_corp">Korporasi</button>
+          <button class="tab" type="button" data-filter="csr" data-i18n="tab_csr">CSR</button>
+          <button class="tab" type="button" data-filter="info" data-i18n="tab_info">Informasi</button>
+        </div>
+
+        <div class="grid grid--3" id="newsGrid">
+          <article class="post" data-category="csr">
+            <img class="post__img" src="assets/img/news-1.jpg" alt="Berita 1" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="post__body">
+              <div class="post__meta">23 Jan 2026</div>
+              <h3 class="post__title" data-i18n="news_1_title">BankJBR Dorong Literasi Finansial di Komunitas</h3>
+              <a class="link" href="#" data-i18n="see_more">Selengkapnya →</a>
+            </div>
+          </article>
+
+          <article class="post" data-category="corp">
+            <img class="post__img" src="assets/img/news-2.jpg" alt="Berita 2" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="post__body">
+              <div class="post__meta">20 Jan 2026</div>
+              <h3 class="post__title" data-i18n="news_2_title">Kinerja BankJBR Kuartal I 2026</h3>
+              <a class="link" href="#" data-i18n="see_more">Selengkapnya →</a>
+            </div>
+          </article>
+
+          <article class="post" data-category="info">
+            <img class="post__img" src="assets/img/news-3.jpg" alt="Berita 3" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="post__body">
+              <div class="post__meta">16 Jan 2026</div>
+              <h3 class="post__title" data-i18n="news_3_title">Tips Aman Bertransaksi Digital</h3>
+              <a class="link" href="#" data-i18n="see_more">Selengkapnya →</a>
+            </div>
+          </article>
+
+          <article class="post" data-category="info">
+            <img class="post__img" src="assets/img/news-4.jpg" alt="Berita 4" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="post__body">
+              <div class="post__meta">10 Jan 2026</div>
+              <h3 class="post__title" data-i18n="news_4_title">Pengumuman Pemeliharaan Sistem</h3>
+              <a class="link" href="#" data-i18n="see_more">Selengkapnya →</a>
+            </div>
+          </article>
+
+          <article class="post" data-category="csr">
+            <img class="post__img" src="assets/img/news-5.jpg" alt="Berita 5" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="post__body">
+              <div class="post__meta">08 Jan 2026</div>
+              <h3 class="post__title" data-i18n="news_5_title">Edukasi: Mengelola Anggaran Bulanan</h3>
+              <a class="link" href="#" data-i18n="see_more">Selengkapnya →</a>
+            </div>
+          </article>
+
+          <article class="post" data-category="corp">
+            <img class="post__img" src="assets/img/news-6.jpg" alt="Berita 6" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="post__body">
+              <div class="post__meta">05 Jan 2026</div>
+              <h3 class="post__title" data-i18n="news_6_title">Promo Awal Tahun: Cashback & Diskon Merchant</h3>
+              <a class="link" href="#" data-i18n="see_more">Selengkapnya →</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="section__foot">
+          <a class="btn btn--primary" href="#" data-i18n="blog_all">Lihat Semua Berita</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promo Merchant -->
+    <section class="section section--soft" id="promo-merchant">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <h2 class="section__title" data-i18n="merchant_title">Promo Merchant Kartu Debit</h2>
+          <p class="section__desc" data-i18n="merchant_desc">
+            Jelajahi promo merchant pilihan untuk transaksi kartu debit BankJBR.
+          </p>
+        </div>
+
+        <div class="hscroll" aria-label="Daftar promo merchant">
+          <article class="merchant">
+            <img class="merchant__img" src="assets/img/merchant-1.jpg" alt="Merchant 1" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="merchant__body">
+              <div class="merchant__badge">DISC 10%</div>
+              <h3 class="merchant__title">Harum Manis</h3>
+              <p class="merchant__meta" data-i18n="merchant_period">Periode: 2026</p>
+            </div>
+          </article>
+
+          <article class="merchant">
+            <img class="merchant__img" src="assets/img/merchant-2.jpg" alt="Merchant 2" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="merchant__body">
+              <div class="merchant__badge">DISC 15%</div>
+              <h3 class="merchant__title">Liberta Kitchen</h3>
+              <p class="merchant__meta" data-i18n="merchant_period">Periode: 2026</p>
+            </div>
+          </article>
+
+          <article class="merchant">
+            <img class="merchant__img" src="assets/img/merchant-3.jpg" alt="Merchant 3" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="merchant__body">
+              <div class="merchant__badge">DISC 20%</div>
+              <h3 class="merchant__title">Tucano’s BBQ</h3>
+              <p class="merchant__meta" data-i18n="merchant_period">Periode: 2026</p>
+            </div>
+          </article>
+
+          <article class="merchant">
+            <img class="merchant__img" src="assets/img/merchant-4.jpg" alt="Merchant 4" loading="lazy" decoding="async" width="1200" height="800" />
+            <div class="merchant__body">
+              <div class="merchant__badge">DISC 10%</div>
+              <h3 class="merchant__title">Hokkaido Izakaya</h3>
+              <p class="merchant__meta" data-i18n="merchant_period">Periode: 2026</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="section__foot">
+          <a class="btn btn--primary" href="#" data-i18n="merchant_all">Lihat Promo Merchant Lainnya</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- (Opsional) Simpanan anchor biar nav "Simpanan" tidak mati -->
+    <section class="section" id="simpanan">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title" data-i18n="savings_title">Simpanan</h2>
+          <p class="section__desc" data-i18n="savings_desc">Pilih tabungan yang cocok untuk transaksi harian hingga rencana masa depan.</p>
+        </div>
+        <div class="grid grid--3">
+          <div class="card">
+            <div class="card__icon">💼</div>
+            <h3 class="card__title" data-i18n="sav_1_title">Tabungan JBR Basic</h3>
+            <p class="card__text" data-i18n="sav_1_li1">Setoran awal ringan</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">⭐</div>
+            <h3 class="card__title" data-i18n="sav_2_title">Tabungan JBR Plus</h3>
+            <p class="card__text" data-i18n="sav_2_li2">Limit transaksi lebih besar</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">📈</div>
+            <h3 class="card__title" data-i18n="sav_3_title">Deposito JBR</h3>
+            <p class="card__text" data-i18n="sav_3_li2">Bunga kompetitif</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kurs -->
+    <section class="section section--soft" id="kurs">
+      <div class="container">
+        <div class="grid grid--2 grid--gaplg">
+          <div class="appshot">
+            <h2 class="section__title" data-i18n="fx_title">Nilai Kurs Hari Ini</h2>
+            <p class="section__desc" data-i18n="fx_desc">Cek kurs mata uang asing untuk kebutuhan transaksi Anda.</p>
+            <img class="appshot__img" src="assets/img/app-shot.jpg" alt="Tampilan aplikasi BankJBR"
+                 loading="lazy" decoding="async" width="1200" height="800" />
+          </div>
+
+          <div class="fx">
+            <div class="fx__head">
+              <div>
+                <div class="fx__label" data-i18n="fx_updated">Terakhir diperbarui</div>
+                <div class="fx__time">15 Jan 2026 • 19:56</div>
+              </div>
+              <div class="fx__actions">
+                <button class="btn btn--chip is-active" type="button">Banknotes</button>
+                <button class="btn btn--chip" type="button">Demand Draft</button>
+                <button class="btn btn--chip" type="button">Cross Currency</button>
+              </div>
+            </div>
+
+            <div class="tablewrap" role="region" aria-label="Tabel kurs" tabindex="0">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>CCY</th>
+                    <th>Buy</th>
+                    <th>Sell</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>USD</td><td>16,750.00</td><td>16,850.00</td></tr>
+                  <tr><td>SGD</td><td>12,950.00</td><td>13,050.00</td></tr>
+                  <tr><td>JPY</td><td>107.40</td><td>109.20</td></tr>
+                  <tr><td>EUR</td><td>18,900.00</td><td>19,100.00</td></tr>
+                  <tr><td>AUD</td><td>11,700.00</td><td>11,900.00</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p class="fineprint" data-i18n="fx_note">Nilai kurs dapat berubah sewaktu-waktu mengikuti ketentuan yang berlaku.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="brand__logo footer__logo">JBR</div>
+        <div>
+          <div class="footer__name">BankJBR</div>
+          <div class="footer__desc" data-i18n="footer_desc">Layanan perbankan untuk transaksi harian, simpanan, dan kebutuhan finansial Anda.</div>
+        </div>
+      </div>
+
+      <div class="footer__grid">
+        <div class="footer__col">
+          <h4 class="footer__title">E-banking</h4>
+          <ul class="footer__list">
+            <li><a href="#">Internet Banking</a></li>
+            <li><a href="#">Mobile Banking</a></li>
+            <li><a href="#">SMS Notifikasi</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__title" data-i18n="footer_individual">Individu</h4>
+          <ul class="footer__list">
+            <li><a href="#simpanan" data-i18n="nav_savings">Simpanan</a></li>
+            <li><a href="#" data-i18n="footer_deposit">Deposito</a></li>
+            <li><a href="#promo-merchant" data-i18n="nav_merchant">Promo Merchant</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__title" data-i18n="footer_business">Bisnis</h4>
+          <ul class="footer__list">
+            <li><a href="#" data-i18n="footer_cash">Cash Management</a></li>
+            <li><a href="#" data-i18n="footer_trade">Trade Finance</a></li>
+            <li><a href="#" data-i18n="footer_loan">Pinjaman</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__title" data-i18n="footer_other">Lainnya</h4>
+          <ul class="footer__list">
+            <li><a href="#blog" data-i18n="nav_blog">Blog (Berita)</a></li>
+            <li><a href="#kontak" data-i18n="nav_contact">Kontak</a></li>
+            <li><a href="#" data-i18n="footer_privacy">Kebijakan Privasi</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div>© <span id="year"></span> BankJBR. <span data-i18n="footer_rights">All rights reserved.</span></div>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="YouTube">YT</a>
+          <a href="#" aria-label="LinkedIn">IN</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Buttons: WhatsApp + Scroll to Top -->
+    <a class="float-wa"
+     href="https://wa.me/62895369969300?text=Halo%20BankJBR,%20saya%20butuh%20bantuan."
+     target="_blank" rel="noopener"
+     aria-label="Chat WhatsApp">
+    <span><i class="bi bi-whatsapp"></i></span>
+  </a>
+  <button class="float-up" type="button" aria-label="Kembali ke atas">↑</button>
+
+  <!-- JS: mobile nav + translate + tabs + floating buttons -->
+  <script>
+    // year
+    const yearEl = document.getElementById("year");
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    // mobile nav toggle
+    const toggle = document.querySelector(".nav__toggle");
+    const navList = document.querySelector(".nav__list");
+    if (toggle && navList) {
+      toggle.addEventListener("click", () => {
+        const open = navList.classList.toggle("is-open");
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+    }
+
+    // close nav when clicking a link (mobile UX)
+    document.querySelectorAll(".nav__link").forEach(a => {
+      a.addEventListener("click", () => {
+        if (!navList || !toggle) return;
+        navList.classList.remove("is-open");
+        toggle.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    // language dropdown
+    const langBtn = document.querySelector(".lang__btn");
+    const langMenu = document.querySelector(".lang__menu");
+    const langLabel = document.querySelector(".lang__label");
+
+    const dict = {
+      id: {
+        nav_home: "Beranda",
+        nav_about: "Tentang",
+        nav_merchant: "Promo Merchant",
+        nav_savings: "Simpanan",
+        nav_services: "Layanan",
+        nav_blog: "Blog (Berita)",
+        lang_label: "ID",
+        hero_badge: "Promo Spesial BankJBR",
+        hero_title: "Perbankan modern yang cepat, aman, dan nyaman.",
+        hero_subtitle: "Nikmati simpanan, kartu debit, layanan digital, dan promo merchant untuk kebutuhan harian Anda.",
+        hero_cta_promo: "Lihat Promo",
+        quick_1: "Diskon F&B pilihan",
+        quick_2: "Layanan digital",
+        quick_3: "Keamanan berlapis",
+        hero_card_title: "Kartu Debit BankJBR",
+        hero_card_text: "Transaksi harian lebih hemat dengan promo merchant pilihan.",
+        hero_card_link: "Lihat detail →",
+        about_title: "Tentang BankJBR",
+        about_desc: "BankJBR berfokus pada layanan ritel dan digital untuk membantu Anda mengelola keuangan dengan lebih mudah.",
+        about_c1_title: "Aman",
+        about_c1_text: "Proteksi berlapis, kontrol transaksi, dan notifikasi real-time.",
+        about_c2_title: "Cepat",
+        about_c2_text: "Akses layanan kapan saja lewat web dan mobile.",
+        about_c3_title: "Mudah",
+        about_c3_text: "Produk simpel, informasi jelas, dan dukungan yang responsif.",
+        promo_title: "Promo Produk BankJBR untuk Nasabah Setia!",
+        promo_desc: "Program promo produk seperti tabungan, deposito, kartu, hingga promo digital untuk membantu transaksi lebih hemat.",
+        promo_1_title: "Tabungan Berhadiah",
+        promo_1_meta: "Periode: 2026",
+        promo_2_title: "Cashback Transaksi Digital",
+        promo_2_meta: "QRIS & Transfer",
+        promo_3_title: "Deposito Spesial",
+        promo_3_meta: "Bunga kompetitif",
+        promo_4_title: "Program Merchant",
+        promo_4_meta: "Diskon F&B & Lifestyle",
+        see_more: "Selengkapnya →",
+        promo_all: "Lihat Semua Promo",
+        services_title: "Layanan",
+        services_desc: "Akses layanan perbankan yang memudahkan transaksi dan kebutuhan finansial Anda.",
+        svc_1_title: "Mobile Banking",
+        svc_1_text: "Cek saldo, transfer, bayar tagihan, dan QRIS dalam satu aplikasi.",
+        svc_2_title: "Kartu Debit",
+        svc_2_text: "Transaksi di merchant, tarik tunai, dan promo menarik.",
+        svc_3_title: "Cabang & ATM",
+        svc_3_text: "Akses layanan tatap muka dan jaringan ATM yang nyaman.",
+        blog_title: "Berita & Artikel",
+        blog_desc: "Informasi terbaru seputar BankJBR, edukasi finansial, dan pengumuman.",
+        tab_all: "Semua",
+        tab_corp: "Korporasi",
+        tab_csr: "CSR",
+        tab_info: "Informasi",
+        news_1_title: "BankJBR Dorong Literasi Finansial di Komunitas",
+        news_2_title: "Kinerja BankJBR Kuartal I 2026",
+        news_3_title: "Tips Aman Bertransaksi Digital",
+        news_4_title: "Pengumuman Pemeliharaan Sistem",
+        news_5_title: "Edukasi: Mengelola Anggaran Bulanan",
+        news_6_title: "Promo Awal Tahun: Cashback & Diskon Merchant",
+        blog_all: "Lihat Semua Berita",
+        merchant_title: "Promo Merchant Kartu Debit",
+        merchant_desc: "Jelajahi promo merchant pilihan untuk transaksi kartu debit BankJBR.",
+        merchant_period: "Periode: 2026",
+        merchant_all: "Lihat Promo Merchant Lainnya",
+        savings_title: "Simpanan",
+        savings_desc: "Pilih tabungan yang cocok untuk transaksi harian hingga rencana masa depan.",
+        sav_1_title: "Tabungan JBR Basic",
+        sav_1_li1: "Setoran awal ringan",
+        sav_2_title: "Tabungan JBR Plus",
+        sav_2_li2: "Limit transaksi lebih besar",
+        sav_3_title: "Deposito JBR",
+        sav_3_li2: "Bunga kompetitif",
+        fx_title: "Nilai Kurs Hari Ini",
+        fx_desc: "Cek kurs mata uang asing untuk kebutuhan transaksi Anda.",
+        fx_updated: "Terakhir diperbarui",
+        fx_note: "Nilai kurs dapat berubah sewaktu-waktu mengikuti ketentuan yang berlaku.",
+        footer_desc: "Layanan perbankan untuk transaksi harian, simpanan, dan kebutuhan finansial Anda.",
+        footer_individual: "Individu",
+        footer_deposit: "Deposito",
+        footer_business: "Bisnis",
+        footer_cash: "Cash Management",
+        footer_trade: "Trade Finance",
+        footer_loan: "Pinjaman",
+        footer_other: "Lainnya",
+        footer_privacy: "Kebijakan Privasi",
+        footer_rights: "All rights reserved."
+      },
+      en: {
+        nav_home: "Home",
+        nav_about: "About",
+        nav_merchant: "Merchant Deals",
+        nav_savings: "Savings",
+        nav_services: "Services",
+        nav_blog: "Blog (News)",
+        lang_label: "EN",
+        hero_badge: "BankJBR Special Deals",
+        hero_title: "Modern banking that is fast, secure, and convenient.",
+        hero_subtitle: "Enjoy savings, debit card, digital services, and merchant deals for your daily needs.",
+        hero_cta_promo: "View Promotions",
+        quick_1: "Selected F&B discounts",
+        quick_2: "Digital services",
+        quick_3: "Layered security",
+        hero_card_title: "BankJBR Debit Card",
+        hero_card_text: "Save more on daily spending with selected merchant deals.",
+        hero_card_link: "See details →",
+        about_title: "About BankJBR",
+        about_desc: "BankJBR focuses on retail and digital banking to help you manage finances more easily.",
+        about_c1_title: "Secure",
+        about_c1_text: "Layered protection, transaction controls, and real-time alerts.",
+        about_c2_title: "Fast",
+        about_c2_text: "Access services anytime via web and mobile.",
+        about_c3_title: "Simple",
+        about_c3_text: "Clear products, transparent info, responsive support.",
+        promo_title: "BankJBR Promotions for Loyal Customers!",
+        promo_desc: "Promos for savings, deposits, cards, and digital transactions to help you save more.",
+        promo_1_title: "Rewards Savings",
+        promo_1_meta: "Period: 2026",
+        promo_2_title: "Digital Transaction Cashback",
+        promo_2_meta: "QRIS & Transfers",
+        promo_3_title: "Special Time Deposit",
+        promo_3_meta: "Competitive rates",
+        promo_4_title: "Merchant Program",
+        promo_4_meta: "F&B & Lifestyle discounts",
+        see_more: "Learn more →",
+        promo_all: "See All Promotions",
+        services_title: "Services",
+        services_desc: "Banking services that make transactions and financial needs easier.",
+        svc_1_title: "Mobile Banking",
+        svc_1_text: "Check balance, transfer, pay bills, and QR payments in one app.",
+        svc_2_title: "Debit Card",
+        svc_2_text: "Merchant payments, cash withdrawal, and exciting deals.",
+        svc_3_title: "Branches & ATMs",
+        svc_3_text: "In-person services and a convenient ATM network.",
+        blog_title: "News & Articles",
+        blog_desc: "Latest updates from BankJBR, financial education, and announcements.",
+        tab_all: "All",
+        tab_corp: "Corporate",
+        tab_csr: "CSR",
+        tab_info: "Info",
+        news_1_title: "BankJBR Promotes Financial Literacy in Communities",
+        news_2_title: "BankJBR Q1 2026 Performance",
+        news_3_title: "Tips for Safe Digital Transactions",
+        news_4_title: "Scheduled System Maintenance Notice",
+        news_5_title: "Education: Managing Monthly Budgets",
+        news_6_title: "New Year Deals: Cashback & Merchant Discounts",
+        blog_all: "See All News",
+        merchant_title: "Debit Card Merchant Deals",
+        merchant_desc: "Explore selected merchant deals for BankJBR debit card transactions.",
+        merchant_period: "Period: 2026",
+        merchant_all: "See More Merchant Deals",
+        savings_title: "Savings",
+        savings_desc: "Choose the right account for daily spending or future plans.",
+        sav_1_title: "JBR Basic Savings",
+        sav_1_li1: "Low initial deposit",
+        sav_2_title: "JBR Plus Savings",
+        sav_2_li2: "Higher transaction limits",
+        sav_3_title: "JBR Time Deposit",
+        sav_3_li2: "Competitive interest",
+        fx_title: "Today's Exchange Rates",
+        fx_desc: "Check currency rates for your transactions.",
+        fx_updated: "Last updated",
+        fx_note: "Rates may change at any time in accordance with applicable terms.",
+        footer_desc: "Banking services for daily transactions, savings, and financial needs.",
+        footer_individual: "Personal",
+        footer_deposit: "Time Deposit",
+        footer_business: "Business",
+        footer_cash: "Cash Management",
+        footer_trade: "Trade Finance",
+        footer_loan: "Loans",
+        footer_other: "Others",
+        footer_privacy: "Privacy Policy",
+        footer_rights: "All rights reserved."
+      }
+    };
+
+    function applyLang(lang) {
+      document.documentElement.lang = lang;
+      const map = dict[lang] || dict.id;
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        const key = el.getAttribute("data-i18n");
+        if (map[key]) el.textContent = map[key];
+      });
+      if (langLabel) langLabel.textContent = (lang === "en") ? "EN" : "ID";
+      localStorage.setItem("bankjbr_lang", lang);
+    }
+
+    function toggleLangMenu(force) {
+      if (!langMenu || !langBtn) return;
+      const open = typeof force === "boolean" ? force : !langMenu.classList.contains("is-open");
+      langMenu.classList.toggle("is-open", open);
+      langBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+
+    if (langBtn) {
+      langBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleLangMenu();
+      });
+    }
+    if (langMenu) {
+      langMenu.addEventListener("click", (e) => {
+        const btn = e.target.closest("[data-lang]");
+        if (!btn) return;
+        applyLang(btn.getAttribute("data-lang"));
+        toggleLangMenu(false);
+      });
+    }
+    document.addEventListener("click", () => toggleLangMenu(false));
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") toggleLangMenu(false);
+    });
+
+    // init lang
+    applyLang(localStorage.getItem("bankjbr_lang") || "id");
+
+    // Tabs filter (Blog)
+    const tabs = document.querySelectorAll(".tab[data-filter]");
+    const posts = document.querySelectorAll("#newsGrid .post[data-category]");
+    function setTab(filter) {
+      tabs.forEach(t => t.classList.toggle("is-active", t.getAttribute("data-filter") === filter));
+      posts.forEach(p => {
+        const cat = p.getAttribute("data-category");
+        p.style.display = (filter === "all" || cat === filter) ? "" : "none";
+      });
+    }
+    tabs.forEach(btn => {
+      btn.addEventListener("click", () => setTab(btn.getAttribute("data-filter")));
+    });
+    setTab("all");
+
+    // Scroll-to-top button + show/hide (floating up)
+    const upBtn = document.querySelector(".float-up");
+    function toggleFloat() {
+      const show = window.scrollY > 400;
+      if (upBtn) upBtn.classList.toggle("is-show", show);
+      const wa = document.querySelector(".float-wa");
+      if (wa) wa.classList.toggle("is-show", show);
+    }
+    window.addEventListener("scroll", toggleFloat, { passive: true });
+    toggleFloat();
+
+    if (upBtn) {
+      upBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    }
+  </script>
+</body>
+</html>

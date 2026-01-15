@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simpanan — BankJBR</title>
+  <meta name="description" content="Simpanan BankJBR: pilihan tabungan untuk kebutuhan harian hingga rencana masa depan, mudah, aman, dan nyaman." />
+  <meta name="keywords" content="BankJBR, simpanan, tabungan, deposito, tabungan digital, tabungan rencana, tabungan valas, bank digital, bankjbr.vercel.app" />
+  <meta name="author" content="haidar" />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <meta name="theme-color" content="#0b5ed7" />
+  <link rel="canonical" href="https://bankjbr.vercel.app/simpanan.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="BankJBR" />
+  <meta property="og:title" content="Simpanan — BankJBR" />
+  <meta property="og:description" content="Pilih tabungan BankJBR yang cocok untuk transaksi harian hingga rencana masa depan." />
+  <meta property="og:url" content="https://bankjbr.vercel.app/simpanan.html" />
+  <meta property="og:image" content="https://bankjbr.vercel.app/assets/img/hero-promo.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+
+  <!-- Base CSS -->
+  <link rel="preload" href="assets/css/main.css" as="style" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <!-- Bootstrap Icons (bi bi-whatsapp) -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" as="style" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+
+  <!-- Optional: Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- JSON-LD (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Simpanan — BankJBR",
+    "url": "https://bankjbr.vercel.app/simpanan.html",
+    "description": "Simpanan BankJBR: pilihan tabungan untuk kebutuhan harian hingga rencana masa depan, mudah, aman, dan nyaman.",
+    "inLanguage": "id",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "BankJBR",
+      "url": "https://bankjbr.vercel.app/"
+    },
+    "author": { "@type": "Person", "name": "haidar" }
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- Navbar (sesuai yang kamu minta, jangan diubah struktur) -->
+  <header class="header" id="beranda">
+    <div class="container header__inner">
+      <a class="brand" href="index.html#beranda" aria-label="BankJBR">
+        <div class="brand__logo" aria-hidden="true">JBR</div>
+        <div class="brand__text">
+          <div class="brand__name">BankJBR</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Navigasi utama">
+        <button class="nav__toggle" type="button" aria-label="Buka menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html" data-i18n="nav_home">Beranda</a></li>
+          <li><a class="nav__link" href="about.html" data-i18n="nav_about">Tentang</a></li>
+          <li><a class="nav__link" href="promo.html" data-i18n="nav_merchant">Promo Merchant</a></li>
+          <li><a class="nav__link is-active" href="simpanan.html" data-i18n="nav_savings">Simpanan</a></li>
+          <li><a class="nav__link" href="layanan.html" data-i18n="nav_services">Layanan</a></li>
+          <li><a class="nav__link" href="blog.html" data-i18n="nav_blog">Blog (Berita)</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <!-- Translate -->
+        <div class="lang">
+          <button class="btn btn--ghost lang__btn" type="button" aria-haspopup="true" aria-expanded="false">
+            <span class="lang__icon" aria-hidden="true">🌐</span>
+            <span class="lang__label" data-i18n="lang_label">ID</span>
+            <span class="lang__chev" aria-hidden="true">▾</span>
+          </button>
+
+          <div class="lang__menu" role="menu" aria-label="Pilih bahasa">
+            <button class="lang__item" type="button" role="menuitem" data-lang="id">Indonesia</button>
+            <button class="lang__item" type="button" role="menuitem" data-lang="en">English</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Heading -->
+    <section class="savings-hero">
+      <div class="container savings-hero__inner">
+        <nav class="savings-breadcrumb" aria-label="Breadcrumb">
+          <a class="link" href="index.html" data-i18n="bc_home">Beranda</a>
+          <span aria-hidden="true">›</span>
+          <span data-i18n="bc_individual">Individu</span>
+          <span aria-hidden="true">›</span>
+          <span aria-current="page" data-i18n="bc_savings">Simpanan</span>
+        </nav>
+
+        <h1 class="savings-hero__title" data-i18n="savings_h1">Simpanan</h1>
+        <p class="savings-hero__subtitle" data-i18n="savings_sub">
+          Temukan berbagai pilihan tabungan BankJBR yang dirancang untuk memenuhi kebutuhan finansial Anda—mulai dari transaksi harian hingga rencana masa depan.
+        </p>
+      </div>
+    </section>
+
+    <!-- Layout: Tabs kiri + Konten kanan (dinamis) -->
+    <section class="section">
+      <div class="container">
+        <div class="savings-layout" aria-label="Daftar simpanan BankJBR">
+          <!-- Left: tab list -->
+          <aside class="savings-nav" aria-label="Menu tab simpanan">
+            <div class="savings-nav__box">
+              <div class="savings-nav__title" data-i18n="nav_title">Produk Simpanan</div>
+
+              <div class="savings-tabs" role="tablist" aria-label="Jenis simpanan">
+                <button class="savings-tab is-active" type="button" role="tab" aria-selected="true" data-tab="basic" id="tab-basic">
+                  <span class="savings-tab__icon" aria-hidden="true">💼</span>
+                  <span class="savings-tab__label" data-i18n="tab_basic">Tabungan JBR Basic</span>
+                  <span class="savings-tab__chev" aria-hidden="true">→</span>
+                </button>
+
+                <button class="savings-tab" type="button" role="tab" aria-selected="false" data-tab="plus" id="tab-plus">
+                  <span class="savings-tab__icon" aria-hidden="true">⭐</span>
+                  <span class="savings-tab__label" data-i18n="tab_plus">Tabungan JBR Plus</span>
+                  <span class="savings-tab__chev" aria-hidden="true">→</span>
+                </button>
+
+                <button class="savings-tab" type="button" role="tab" aria-selected="false" data-tab="rencana" id="tab-rencana">
+                  <span class="savings-tab__icon" aria-hidden="true">🎯</span>
+                  <span class="savings-tab__label" data-i18n="tab_rencana">Tabungan Rencana</span>
+                  <span class="savings-tab__chev" aria-hidden="true">→</span>
+                </button>
+
+                <button class="savings-tab" type="button" role="tab" aria-selected="false" data-tab="digital" id="tab-digital">
+                  <span class="savings-tab__icon" aria-hidden="true">📱</span>
+                  <span class="savings-tab__label" data-i18n="tab_digital">Tabungan Digital</span>
+                  <span class="savings-tab__chev" aria-hidden="true">→</span>
+                </button>
+
+                <button class="savings-tab" type="button" role="tab" aria-selected="false" data-tab="valas" id="tab-valas">
+                  <span class="savings-tab__icon" aria-hidden="true">💱</span>
+                  <span class="savings-tab__label" data-i18n="tab_valas">Tabungan Valas</span>
+                  <span class="savings-tab__chev" aria-hidden="true">→</span>
+                </button>
+
+                <button class="savings-tab" type="button" role="tab" aria-selected="false" data-tab="pelajar" id="tab-pelajar">
+                  <span class="savings-tab__icon" aria-hidden="true">🎓</span>
+                  <span class="savings-tab__label" data-i18n="tab_pelajar">Tabungan Pelajar</span>
+                  <span class="savings-tab__chev" aria-hidden="true">→</span>
+                </button>
+
+                <button class="savings-tab" type="button" role="tab" aria-selected="false" data-tab="bisnis" id="tab-bisnis">
+                  <span class="savings-tab__icon" aria-hidden="true">🏪</span>
+                  <span class="savings-tab__label" data-i18n="tab_bisnis">Tabungan Bisnis</span>
+                  <span class="savings-tab__chev" aria-hidden="true">→</span>
+                </button>
+
+                <button class="savings-tab" type="button" role="tab" aria-selected="false" data-tab="deposito" id="tab-deposito">
+                  <span class="savings-tab__icon" aria-hidden="true">📈</span>
+                  <span class="savings-tab__label" data-i18n="tab_deposito">Deposito JBR</span>
+                  <span class="savings-tab__chev" aria-hidden="true">→</span>
+                </button>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Right: dynamic panel -->
+          <section class="savings-panel" role="region" aria-live="polite" aria-label="Detail simpanan">
+            <div class="savings-panel__box">
+              <div class="savings-panel__head">
+                <h2 class="savings-panel__title" id="panelTitle">Tabungan JBR Basic</h2>
+                <p class="savings-panel__desc" id="panelDesc">
+                  Tabungan untuk kebutuhan transaksi harian dengan biaya ringan dan akses mudah via e-banking.
+                </p>
+              </div>
+
+              <div class="savings-panel__content">
+                <div class="savings-panel__text">
+                  <div class="savings-panel__badge" id="panelBadge">Rekomendasi</div>
+
+                  <ul class="savings-panel__list" id="panelFeatures"></ul>
+
+                  <div class="savings-panel__cta">
+                    <a class="btn btn--primary" id="panelCta"
+                       href="https://wa.me/62895369969300?text=Halo%20BankJBR,%20saya%20ingin%20buka%20Tabungan%20JBR%20Basic."
+                       target="_blank" rel="noopener">
+                      <span data-i18n="cta_open">Buka Simpanan</span> →
+                    </a>
+                    <a class="btn btn--outline" href="promo.html" data-i18n="cta_promo">Lihat Promo Merchant</a>
+                  </div>
+
+                  <p class="fineprint" data-i18n="note">
+                    Informasi dapat berubah sewaktu-waktu sesuai ketentuan yang berlaku.
+                  </p>
+                </div>
+
+                <div class="savings-panel__media">
+                  <img id="panelImg"
+                       class="savings-panel__img"
+                       src="assets/img/app-shot.jpg"
+                       alt="Ilustrasi produk simpanan"
+                       loading="lazy"
+                       decoding="async"
+                       width="1200"
+                       height="800" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Promo Lainnya (3-4 card) -->
+    <section class="section section--soft" id="more">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <h2 class="section__title" data-i18n="more_title">Promo Lainnya untuk Anda</h2>
+          <p class="section__desc" data-i18n="more_desc">Cek juga promo merchant lain yang sedang berjalan.</p>
+        </div>
+
+        <div class="promo-grid" id="moreGrid" aria-label="Daftar promo lainnya">
+          <!-- diisi via JS -->
+        </div>
+
+        <div class="section__foot">
+          <a class="btn btn--primary" href="promo.html" data-i18n="more_btn">Lihat Semua Promo</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer (samakan seperti sebelumnya: ada sosial) -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="brand__logo footer__logo">JBR</div>
+        <div>
+          <div class="footer__name">BankJBR</div>
+          <div class="footer__desc" data-i18n="footer_desc">
+            Layanan perbankan untuk transaksi harian, simpanan, dan kebutuhan finansial Anda.
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__grid">
+        <div class="footer__col">
+          <h4 class="footer__title">E-banking</h4>
+          <ul class="footer__list">
+            <li><a href="#">Internet Banking</a></li>
+            <li><a href="#">Mobile Banking</a></li>
+            <li><a href="#">SMS Notifikasi</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__title" data-i18n="footer_individual">Individu</h4>
+          <ul class="footer__list">
+            <li><a href="simpanan.html" data-i18n="nav_savings">Simpanan</a></li>
+            <li><a href="#" data-i18n="footer_deposit">Deposito</a></li>
+            <li><a href="promo.html" data-i18n="nav_merchant">Promo Merchant</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__title" data-i18n="footer_business">Bisnis</h4>
+          <ul class="footer__list">
+            <li><a href="#" data-i18n="footer_cash">Cash Management</a></li>
+            <li><a href="#" data-i18n="footer_trade">Trade Finance</a></li>
+            <li><a href="#" data-i18n="footer_loan">Pinjaman</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__title" data-i18n="footer_other">Lainnya</h4>
+          <ul class="footer__list">
+            <li><a href="blog.html" data-i18n="nav_blog">Blog (Berita)</a></li>
+            <li><a href="index.html#kontak" data-i18n="nav_contact">Kontak</a></li>
+            <li><a href="#" data-i18n="footer_privacy">Kebijakan Privasi</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div>© <span id="year"></span> BankJBR. <span data-i18n="footer_rights">All rights reserved.</span></div>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="YouTube">YT</a>
+          <a href="#" aria-label="LinkedIn">IN</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Buttons: WhatsApp + Scroll to Top -->
+  <a class="float-wa"
+     href="https://wa.me/62895369969300?text=Halo%20BankJBR,%20saya%20butuh%20bantuan."
+     target="_blank" rel="noopener"
+     aria-label="Chat WhatsApp">
+    <span><i class="bi bi-whatsapp"></i></span>
+  </a>
+  <button class="float-up" type="button" aria-label="Kembali ke atas">↑</button>
+
+  <!-- Bootstrap JS (bundle) -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // ===== year
+    const yearEl = document.getElementById("year");
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    // ===== Mobile nav
+    const toggle = document.querySelector(".nav__toggle");
+    const navList = document.querySelector(".nav__list");
+    if (toggle && navList) {
+      toggle.addEventListener("click", () => {
+        const open = navList.classList.toggle("is-open");
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+    }
+    document.querySelectorAll(".nav__link").forEach(a => {
+      a.addEventListener("click", () => {
+        if (!navList || !toggle) return;
+        navList.classList.remove("is-open");
+        toggle.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    // ===== Language
+    const langBtn = document.querySelector(".lang__btn");
+    const langMenu = document.querySelector(".lang__menu");
+    const langLabel = document.querySelector(".lang__label");
+
+    const i18n = {
+      id: {
+        nav_home: "Beranda",
+        nav_about: "Tentang",
+        nav_merchant: "Promo Merchant",
+        nav_savings: "Simpanan",
+        nav_services: "Layanan",
+        nav_blog: "Blog (Berita)",
+        nav_contact: "Kontak",
+        lang_label: "ID",
+        bc_home: "Beranda",
+        bc_individual: "Individu",
+        bc_savings: "Simpanan",
+        savings_h1: "Simpanan",
+        savings_sub: "Temukan berbagai pilihan tabungan BankJBR yang dirancang untuk memenuhi kebutuhan finansial Anda—mulai dari transaksi harian hingga rencana masa depan.",
+        nav_title: "Produk Simpanan",
+        tab_basic: "Tabungan JBR Basic",
+        tab_plus: "Tabungan JBR Plus",
+        tab_rencana: "Tabungan Rencana",
+        tab_digital: "Tabungan Digital",
+        tab_valas: "Tabungan Valas",
+        tab_pelajar: "Tabungan Pelajar",
+        tab_bisnis: "Tabungan Bisnis",
+        tab_deposito: "Deposito JBR",
+        cta_open: "Buka Simpanan",
+        cta_promo: "Lihat Promo Merchant",
+        note: "Informasi dapat berubah sewaktu-waktu sesuai ketentuan yang berlaku.",
+        footer_desc: "Layanan perbankan untuk transaksi harian, simpanan, dan kebutuhan finansial Anda.",
+        footer_individual: "Individu",
+        footer_deposit: "Deposito",
+        footer_business: "Bisnis",
+        footer_cash: "Cash Management",
+        footer_trade: "Trade Finance",
+        footer_loan: "Pinjaman",
+        footer_other: "Lainnya",
+        footer_privacy: "Kebijakan Privasi",
+        footer_rights: "All rights reserved.",
+
+        more_title: "Promo Lainnya untuk Anda",
+        more_desc: "Cek juga promo merchant lain yang sedang berjalan.",
+        more_btn: "Lihat Semua Promo",
+        promo_period: "Periode: 2026",
+        promo_btn: "Detail Promo"
+      },
+      en: {
+        nav_home: "Home",
+        nav_about: "About",
+        nav_merchant: "Merchant Deals",
+        nav_savings: "Savings",
+        nav_services: "Services",
+        nav_blog: "Blog (News)",
+        nav_contact: "Contact",
+        lang_label: "EN",
+        bc_home: "Home",
+        bc_individual: "Personal",
+        bc_savings: "Savings",
+        savings_h1: "Savings",
+        savings_sub: "Explore BankJBR savings options designed for daily spending and future plans—simple, secure, and convenient.",
+        nav_title: "Savings Products",
+        tab_basic: "JBR Basic Savings",
+        tab_plus: "JBR Plus Savings",
+        tab_rencana: "Goal Savings",
+        tab_digital: "Digital Savings",
+        tab_valas: "Foreign Currency Savings",
+        tab_pelajar: "Student Savings",
+        tab_bisnis: "Business Savings",
+        tab_deposito: "JBR Time Deposit",
+        cta_open: "Open Account",
+        cta_promo: "See Merchant Deals",
+        note: "Information may change at any time based on applicable terms.",
+        footer_desc: "Banking services for daily transactions, savings, and financial needs.",
+        footer_individual: "Personal",
+        footer_deposit: "Time Deposit",
+        footer_business: "Business",
+        footer_cash: "Cash Management",
+        footer_trade: "Trade Finance",
+        footer_loan: "Loans",
+        footer_other: "Others",
+        footer_privacy: "Privacy Policy",
+        footer_rights: "All rights reserved.",
+
+        more_title: "More Deals for You",
+        more_desc: "Explore other ongoing merchant promotions.",
+        more_btn: "See All Deals",
+        promo_period: "Period: 2026",
+        promo_btn: "View Details"
+      }
+    };
+
+    let currentLang = localStorage.getItem("bankjbr_lang") || "id";
+    let activeTabId = "basic";
+
+    function applyLang(lang) {
+      document.documentElement.lang = lang;
+      const map = i18n[lang] || i18n.id;
+
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        const key = el.getAttribute("data-i18n");
+        if (map[key]) el.textContent = map[key];
+      });
+
+      if (langLabel) langLabel.textContent = (lang === "en") ? "EN" : "ID";
+      localStorage.setItem("bankjbr_lang", lang);
+      currentLang = lang;
+
+      renderPanel(activeTabId);
+      renderMorePromos(); // <-- penting: rerender teks period/button sesuai bahasa
+    }
+
+    function toggleLangMenu(force) {
+      if (!langMenu || !langBtn) return;
+      const open = typeof force === "boolean" ? force : !langMenu.classList.contains("is-open");
+      langMenu.classList.toggle("is-open", open);
+      langBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+
+    if (langBtn) {
+      langBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleLangMenu();
+      });
+    }
+    if (langMenu) {
+      langMenu.addEventListener("click", (e) => {
+        const btn = e.target.closest("[data-lang]");
+        if (!btn) return;
+        applyLang(btn.getAttribute("data-lang"));
+        toggleLangMenu(false);
+      });
+    }
+    document.addEventListener("click", () => toggleLangMenu(false));
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") toggleLangMenu(false);
+    });
+
+    // ===== Savings data (ID/EN) + render
+    const savingsData = {
+      basic: {
+        id: { title: "Tabungan JBR Basic", desc: "Tabungan untuk kebutuhan transaksi harian dengan biaya ringan dan akses mudah via e-banking.", badge: "Rekomendasi",
+          features: ["Setoran awal ringan", "Notifikasi transaksi", "Akses Mobile/Internet Banking", "Kartu debit untuk transaksi merchant"],
+          img: "assets/img/app-shot.jpg", ctaText: "Halo BankJBR, saya ingin buka Tabungan JBR Basic." },
+        en: { title: "JBR Basic Savings", desc: "A daily spending account with light fees and easy access through e-banking.", badge: "Recommended",
+          features: ["Low initial deposit", "Transaction notifications", "Mobile/Internet Banking access", "Debit card for merchant payments"],
+          img: "assets/img/app-shot.jpg", ctaText: "Hello BankJBR, I want to open JBR Basic Savings." }
+      },
+      plus: {
+        id: { title: "Tabungan JBR Plus", desc: "Tabungan dengan limit transaksi lebih besar untuk kebutuhan lebih aktif dan fleksibel.", badge: "Paling Favorit",
+          features: ["Limit transaksi lebih besar", "Kemudahan transfer & pembayaran", "Cocok untuk kebutuhan keluarga", "Dukungan layanan digital"],
+          img: "assets/img/promo-2.jpg", ctaText: "Halo BankJBR, saya ingin buka Tabungan JBR Plus." },
+        en: { title: "JBR Plus Savings", desc: "Higher limits for more active and flexible banking needs.", badge: "Popular",
+          features: ["Higher transaction limits", "Easy transfers & payments", "Great for family needs", "Digital service support"],
+          img: "assets/img/promo-2.jpg", ctaText: "Hello BankJBR, I want to open JBR Plus Savings." }
+      },
+      rencana: {
+        id: { title: "Tabungan Rencana", desc: "Tabungan untuk target masa depan dengan setoran rutin dan perencanaan yang lebih terarah.", badge: "Rencana Masa Depan",
+          features: ["Setoran rutin otomatis", "Cocok untuk pendidikan & liburan", "Monitoring target lebih mudah", "Disiplin menabung"],
+          img: "assets/img/promo-1.jpg", ctaText: "Halo BankJBR, saya ingin info Tabungan Rencana." },
+        en: { title: "Goal Savings", desc: "A savings plan for future goals with scheduled deposits and easier planning.", badge: "Future Plan",
+          features: ["Automatic scheduled deposits", "For education & travel goals", "Easy goal tracking", "Build saving discipline"],
+          img: "assets/img/promo-1.jpg", ctaText: "Hello BankJBR, I want info about Goal Savings." }
+      },
+      digital: {
+        id: { title: "Tabungan Digital", desc: "Pembukaan dan pengelolaan tabungan lebih praktis, fokus pada pengalaman cepat dan mobile-first.", badge: "Digital",
+          features: ["Buka rekening lebih praktis", "Akses 24/7", "Transaksi cepat", "UI ramah mobile"],
+          img: "assets/img/hero-promo.jpg", ctaText: "Halo BankJBR, saya ingin buka Tabungan Digital." },
+        en: { title: "Digital Savings", desc: "Open and manage your account easily with a fast mobile-first experience.", badge: "Digital",
+          features: ["Easy account opening", "24/7 access", "Fast transactions", "Mobile-friendly UI"],
+          img: "assets/img/hero-promo.jpg", ctaText: "Hello BankJBR, I want to open Digital Savings." }
+      },
+      valas: {
+        id: { title: "Tabungan Valas", desc: "Simpanan mata uang asing untuk kebutuhan perjalanan atau transaksi internasional.", badge: "Valas",
+          features: ["Kebutuhan transaksi valas", "Cocok untuk perjalanan", "Kemudahan pengelolaan saldo", "Informasi kurs transparan"],
+          img: "assets/img/promo-3.jpg", ctaText: "Halo BankJBR, saya ingin info Tabungan Valas." },
+        en: { title: "Foreign Currency Savings", desc: "A foreign currency account for travel needs and international transactions.", badge: "FX",
+          features: ["For FX transactions", "Great for travel", "Easy balance management", "Transparent exchange info"],
+          img: "assets/img/promo-3.jpg", ctaText: "Hello BankJBR, I want info about Foreign Currency Savings." }
+      },
+      pelajar: {
+        id: { title: "Tabungan Pelajar", desc: "Tabungan untuk pelajar dengan fitur simpel agar belajar mengelola uang sejak dini.", badge: "Pelajar",
+          features: ["Fitur sederhana & mudah", "Edukasi finansial", "Cocok untuk pelajar", "Kontrol pengeluaran"],
+          img: "assets/img/promo-4.jpg", ctaText: "Halo BankJBR, saya ingin info Tabungan Pelajar." },
+        en: { title: "Student Savings", desc: "A simple account for students to learn money management early.", badge: "Student",
+          features: ["Simple & easy features", "Financial education", "For students", "Spending control"],
+          img: "assets/img/promo-4.jpg", ctaText: "Hello BankJBR, I want info about Student Savings." }
+      },
+      bisnis: {
+        id: { title: "Tabungan Bisnis", desc: "Untuk pelaku usaha yang membutuhkan fleksibilitas transaksi dan pencatatan lebih rapi.", badge: "Bisnis",
+          features: ["Cocok untuk UMKM", "Kemudahan transaksi operasional", "Pencatatan lebih terstruktur", "Dukungan layanan digital"],
+          img: "assets/img/news-2.jpg", ctaText: "Halo BankJBR, saya ingin info Tabungan Bisnis." },
+        en: { title: "Business Savings", desc: "For business owners who need flexible transactions and better recordkeeping.", badge: "Business",
+          features: ["Great for SMEs", "Operational transaction ease", "More structured records", "Digital support"],
+          img: "assets/img/news-2.jpg", ctaText: "Hello BankJBR, I want info about Business Savings." }
+      },
+      deposito: {
+        id: { title: "Deposito JBR", desc: "Simpanan berjangka dengan potensi bunga lebih kompetitif untuk rencana investasi yang stabil.", badge: "Stabil",
+          features: ["Tenor fleksibel", "Potensi bunga kompetitif", "Cocok untuk dana mengendap", "Perencanaan keuangan lebih rapi"],
+          img: "assets/img/news-3.jpg", ctaText: "Halo BankJBR, saya ingin buka Deposito JBR." },
+        en: { title: "JBR Time Deposit", desc: "A time deposit with potentially competitive rates for stable planning.", badge: "Stable",
+          features: ["Flexible tenors", "Competitive rate potential", "For idle funds", "Better financial planning"],
+          img: "assets/img/news-3.jpg", ctaText: "Hello BankJBR, I want to open JBR Time Deposit." }
+      }
+    };
+
+    function renderPanel(tabId) {
+      const d = savingsData[tabId] ? savingsData[tabId][currentLang] : savingsData.basic[currentLang];
+
+      document.getElementById("panelTitle").textContent = d.title;
+      document.getElementById("panelDesc").textContent = d.desc;
+      document.getElementById("panelBadge").textContent = d.badge;
+
+      const img = document.getElementById("panelImg");
+      img.src = d.img;
+      img.alt = d.title;
+
+      const ul = document.getElementById("panelFeatures");
+      ul.innerHTML = "";
+      d.features.forEach(text => {
+        const li = document.createElement("li");
+        li.textContent = text;
+        ul.appendChild(li);
+      });
+
+      const waText = encodeURIComponent(d.ctaText);
+      document.getElementById("panelCta").href = `https://wa.me/62895369969300?text=${waText}`;
+    }
+
+    // ===== Tabs interaction
+    const tabs = document.querySelectorAll(".savings-tab[data-tab]");
+    function setActiveTab(tabId) {
+      activeTabId = tabId;
+      tabs.forEach(btn => {
+        const isActive = btn.getAttribute("data-tab") === tabId;
+        btn.classList.toggle("is-active", isActive);
+        btn.setAttribute("aria-selected", isActive ? "true" : "false");
+      });
+      renderPanel(tabId);
+      history.replaceState(null, "", `#${tabId}`);
+    }
+    tabs.forEach(btn => btn.addEventListener("click", () => setActiveTab(btn.getAttribute("data-tab"))));
+
+    // ===== Promo cards data (untuk section bawah)
+    const promoCards = [
+      { id: "harum-manis", badge: "DISC 10%", title: "Harum Manis", img: "assets/img/merchant-1.jpg" },
+      { id: "liberta-kitchen", badge: "DISC 15%", title: "Liberta Kitchen", img: "assets/img/merchant-2.jpg" },
+      { id: "tucanos-bbq", badge: "DISC 20%", title: "Tucano’s BBQ", img: "assets/img/merchant-3.jpg" },
+      { id: "hokkaido-izakaya", badge: "DISC 10%", title: "Hokkaido Izakaya", img: "assets/img/merchant-4.jpg" }
+    ];
+
+    function renderMorePromos() {
+      const grid = document.getElementById("moreGrid");
+      if (!grid) return;
+
+      const map = i18n[currentLang] || i18n.id;
+      const periodLabel = map.promo_period || "Periode: 2026";
+      const btnLabel = map.promo_btn || "Detail Promo";
+
+      grid.innerHTML = promoCards.map(p => `
+        <article class="promo-card">
+          <img class="promo-card__img" src="${p.img}" alt="${p.title}"
+               loading="lazy" decoding="async" width="1200" height="800">
+          <div class="promo-card__body">
+            <div class="promo-card__tag">${p.badge}</div>
+            <h3 class="promo-card__title">${p.title}</h3>
+            <p class="promo-card__meta">${periodLabel}</p>
+            <a class="btn btn--primary promo-card__btn" href="detailpromo.html?id=${p.id}">
+              ${btnLabel}
+            </a>
+          </div>
+        </article>
+      `).join("");
+    }
+
+    // ===== init tab from hash
+    const initialHash = (location.hash || "").replace("#", "");
+    if (initialHash && savingsData[initialHash]) activeTabId = initialHash;
+
+    // ===== init language + render
+    applyLang(currentLang);
+    setActiveTab(activeTabId);
+    renderMorePromos();
+
+    // ===== Floating buttons
+    const upBtn = document.querySelector(".float-up");
+    function toggleFloat() {
+      const show = window.scrollY > 300;
+      const wa = document.querySelector(".float-wa");
+      if (upBtn) upBtn.classList.toggle("is-show", show);
+      if (wa) wa.classList.toggle("is-show", show);
+    }
+    window.addEventListener("scroll", toggleFloat, { passive: true });
+    toggleFloat();
+    if (upBtn) upBtn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+  </script>
+</body>
+</html>
